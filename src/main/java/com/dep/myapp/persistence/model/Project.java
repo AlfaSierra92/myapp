@@ -27,6 +27,10 @@ public class Project {
         this.dateCreated = dateCreated;
     }
 
+    public Project(Project project) {
+        this(project.id, project.name, project.dateCreated);
+    }
+
     public Long getId() {
         return id;
     }
