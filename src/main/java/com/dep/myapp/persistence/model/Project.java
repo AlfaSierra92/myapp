@@ -31,6 +31,9 @@ public class Project {
         this(project.id, project.name, project.dateCreated);
     }
 
+
+    // getters, setters, equals, hashCode
+    // .................
     public Long getId() {
         return id;
     }
