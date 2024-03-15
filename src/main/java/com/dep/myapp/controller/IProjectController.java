@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-@RequestMapping(value = "/projects")
+@RequestMapping(value = "/projects") //base url lcoalhost:8080/projects/......
 public interface IProjectController {
     @GetMapping(value = "/{id}")
     Project findOne(@PathVariable Long id);
 
-    @GetMapping
+    @GetMapping //localhost:8080/projects/
     Collection<Project> findAll();
 
     @PostMapping
