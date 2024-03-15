@@ -4,10 +4,6 @@ import com.dep.myapp.controller.IProjectController;
 import com.dep.myapp.persistence.model.Project;
 import com.dep.myapp.service.IProjectService;
 import org.springframework.http.HttpStatus;
-<<<<<<< HEAD
-import org.springframework.web.bind.annotation.RequestMapping;
-=======
->>>>>>> origin/main
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
