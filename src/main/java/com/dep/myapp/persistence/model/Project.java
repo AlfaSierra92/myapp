@@ -11,6 +11,10 @@ public class Project {
     UUID secondaryID;
     LocalDate dateCreated;
 
+    public Project(){
+
+    }
+
     public Project(Long id, String name, LocalDate dateCreated) {
         if(Objects.nonNull(id)){
             this.id = id;
